@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ContactPage {
+public class TonicContactPage {
     private WebDriver driver;
 
     @FindBy(className = "v2")
@@ -23,8 +23,14 @@ public class ContactPage {
     @FindBy(xpath = "//*[@id=\"contact\"]/div[2]/div[3]/form/div[4]/div/button")
     WebElement submitButton;
 
+    @FindBy(className = "alert-success")
+    WebElement alertText;
+
+
+
+
     //Constructor
-    public ContactPage(WebDriver driver){
+    public TonicContactPage(WebDriver driver){
         this.driver = driver;
 
         //Initialize Elements
@@ -55,4 +61,8 @@ public class ContactPage {
         return heading.getText().toString().contains("Get in Touch");
     }
 
+
+    public boolean getAlertText(String alert){
+        return alertText.getText().toString().contains("Got it! We will get back to you as soon as we can.");
+    }
 }
