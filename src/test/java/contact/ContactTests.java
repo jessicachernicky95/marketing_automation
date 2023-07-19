@@ -19,6 +19,7 @@ public class ContactTests {
         //Use Chromedriver
         System.setProperty("webdriver.http.factory", "jdk-http-client");
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
         ChromeOptions co = new ChromeOptions();
         co.addArguments("--remote-allow-origins=*");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -26,7 +27,7 @@ public class ContactTests {
     }
 
     @Test
-    public void contactTest() {
+    public void contactTest() throws InterruptedException {
         //Create object of HomePage class
         HomePage home = new HomePage(driver);
         home.clickOnContactButton();
@@ -39,6 +40,7 @@ public class ContactTests {
         //Assert.assertTrue(contactPage.isPageOpened());
 
         //Fill in data
+        Thread.sleep(5000);
         contactPage.setForm_name("John Doe");
         contactPage.setForm_email("johndoe@hellotonic.com");
         contactPage.setForm_message("Please ignore, this is an automated test sent by Selenium Webdriver.");

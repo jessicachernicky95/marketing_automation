@@ -26,9 +26,9 @@ public class HomePage {
             PageFactory.initElements(driver,this);
         }
 
-        public void clickOnContactButton(){
-
+        public TonicContactPage clickOnContactButton(){
             contactButton.click();
+            return new TonicContactPage(driver);
         }
 
 }

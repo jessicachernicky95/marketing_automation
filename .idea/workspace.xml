@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd1a4256-4cc8-40a5-9906-fec51c7e2927" name="Changes" comment="test" />
+    <list default="true" id="dd1a4256-4cc8-40a5-9906-fec51c7e2927" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing_automation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing_automation/resources/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/resources/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing_automation/src/Notes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing_automation/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing_automation/src/main/java/pages/TonicContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/TonicContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing_automation/src/test/java/contact/ContactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/contact/ContactTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing_automation/src/test/java/contact/test" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/contact/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing_automation/target/classes/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing_automation/target/classes/pages/TonicContactPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing_automation/target/test-classes/contact/ContactTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing_automation/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/TonicContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/TonicContactPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/contact/ContactTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/contact/ContactTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +77,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -66,16 +85,26 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;java.sql.Driver&quot;,
+      &quot;mysql&quot;,
+      &quot;azure&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/jessicachernicky/workspace/hellotonic/marketing_automation/testng.xml">
+  <component name="RunManager" selected="TestNG.ContactTests">
     <configuration name="BaseTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.BaseTests" />
       <module name="marketing_automation" />
@@ -146,10 +175,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/jessicachernicky/workspace/hellotonic/marketing_automation/testng.xml" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.ContactTests.contactTest" />
         <item itemvalue="TestNG.ContactTests" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG./Users/jessicachernicky/workspace/hellotonic/marketing_automation/testng.xml" />
+        <item itemvalue="TestNG.ContactTests.contactTest" />
         <item itemvalue="Application.BaseTests" />
       </list>
     </recent_temporary>
@@ -173,6 +202,22 @@
       <workItem from="1680543118620" duration="136000" />
       <workItem from="1680543265352" duration="56000" />
       <workItem from="1680543332809" duration="1108000" />
+      <workItem from="1680733249578" duration="12255000" />
+      <workItem from="1680825814918" duration="711000" />
+      <workItem from="1680826537935" duration="9000" />
+      <workItem from="1680884951712" duration="3597000" />
+      <workItem from="1680904436867" duration="601000" />
+      <workItem from="1681148723080" duration="11589000" />
+      <workItem from="1681773715579" duration="814000" />
+      <workItem from="1682023310215" duration="43000" />
+      <workItem from="1682023367526" duration="230000" />
+      <workItem from="1682102601904" duration="83000" />
+      <workItem from="1682440421953" duration="6419000" />
+      <workItem from="1682464616125" duration="598000" />
+      <workItem from="1682537241745" duration="1427000" />
+      <workItem from="1684776182762" duration="6165000" />
+      <workItem from="1686945927929" duration="1326000" />
+      <workItem from="1687284814663" duration="7209000" />
     </task>
     <servers />
   </component>
