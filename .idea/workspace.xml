@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd1a4256-4cc8-40a5-9906-fec51c7e2927" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="dd1a4256-4cc8-40a5-9906-fec51c7e2927" name="Changes" comment="fixing broken script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing_automation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing_automation/resources/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/resources/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing_automation/src/Notes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing_automation/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing_automation/src/main/java/pages/TonicContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/TonicContactPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing_automation/src/test/java/contact/ContactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/contact/ContactTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing_automation/src/test/java/contact/test" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/contact/test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing_automation/target/classes/pages/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing_automation/target/classes/pages/TonicContactPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing_automation/target/test-classes/contact/ContactTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing_automation/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/TonicContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/TonicContactPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/contact/ContactTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/contact/ContactTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +203,17 @@
       <workItem from="1684776182762" duration="6165000" />
       <workItem from="1686945927929" duration="1326000" />
       <workItem from="1687284814663" duration="7209000" />
+      <workItem from="1689781370314" duration="1612000" />
+      <workItem from="1689784657442" duration="13000" />
     </task>
+    <task id="LOCAL-00001" summary="fixing broken script">
+      <created>1689781628085</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689781628085</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +233,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="fixing broken script" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing broken script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
