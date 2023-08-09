@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-03T22:55:40 MDT" name="Surefire suite" finished-at="2023-08-03T22:56:03 MDT" duration-ms="23301">
+  <suite started-at="2023-08-09T00:39:02 MDT" name="Surefire suite" finished-at="2023-08-09T00:39:03 MDT" duration-ms="918">
     <groups>
     </groups>
-    <test started-at="2023-08-03T22:55:40 MDT" name="Surefire test" finished-at="2023-08-03T22:56:03 MDT" duration-ms="23301">
+    <test started-at="2023-08-09T00:39:02 MDT" name="Surefire test" finished-at="2023-08-09T00:39:03 MDT" duration-ms="918">
       <class name="contact.ContactTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:contact.ContactTests@5c1a8622]" started-at="2023-08-03T22:55:40 MDT" name="setup" finished-at="2023-08-03T22:56:03 MDT" duration-ms="23280" status="FAIL">
+        <test-method is-config="true" signature="setup()[pri:0, instance:contact.ContactTests@5c1a8622]" started-at="2023-08-09T00:39:02 MDT" name="setup" finished-at="2023-08-09T00:39:03 MDT" duration-ms="901" status="FAIL">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads]]>
@@ -57,7 +57,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="contactTest()[pri:0, instance:contact.ContactTests@5c1a8622]" started-at="2023-08-03T22:56:03 MDT" name="contactTest" finished-at="2023-08-03T22:56:03 MDT" duration-ms="0" status="SKIP">
+        <test-method signature="contactTest()[pri:0, instance:contact.ContactTests@5c1a8622]" started-at="2023-08-09T00:39:03 MDT" name="contactTest" finished-at="2023-08-09T00:39:03 MDT" duration-ms="0" status="SKIP">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads]]>

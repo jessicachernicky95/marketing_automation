@@ -30,6 +30,7 @@ public class ContactTests {
     public void contactTest() throws InterruptedException {
         //Create object of HomePage class
         HomePage home = new HomePage(driver);
+
         home.clickOnContactButton();
 
 
@@ -41,8 +42,8 @@ public class ContactTests {
 
         //Fill in data
         Thread.sleep(5000);
-        contactPage.setForm_name("John Doe");
-        contactPage.setForm_email("johndoe@hellotonic.com");
+        contactPage.setForm_name("Jane Doe");
+        contactPage.setForm_email("janedoe@hellotonic.com");
         contactPage.setForm_message("Please ignore, this is an automated test sent by Selenium Webdriver.");
 
         //Click on Submit

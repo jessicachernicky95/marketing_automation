@@ -7,7 +7,14 @@ import org.openqa.selenium.support.PageFactory;
 
 public class
 TonicContactPage {
-    private WebDriver driver;
+    public WebDriver driver;
+    //Constructor
+    public TonicContactPage(WebDriver driver){
+
+        this.driver = driver;
+        //Initialize Elements
+        PageFactory.initElements(driver,this);
+    }
 
     @FindBy(className = "v2")
     WebElement heading;
@@ -30,13 +37,6 @@ TonicContactPage {
 
 
 
-    //Constructor
-    public TonicContactPage(WebDriver driver){
-        this.driver = driver;
-
-        //Initialize Elements
-        PageFactory.initElements(driver,this);
-    }
 
     public void setForm_name(String name){
         form_name.clear();
@@ -59,11 +59,11 @@ TonicContactPage {
 
     public boolean isPageOpened(){
         //Assertion
-        return heading.getText().toString().contains("Get in Touch");
+        return heading.getText().contains("Get in Touch");
     }
 
 
     public boolean getAlertText(String alert){
-        return alertText.getText().toString().contains("Got it! We will get back to you as soon as we can.");
+        return alertText.getText().contains("Got it! We will get back to you as soon as we can.");
     }
 }
