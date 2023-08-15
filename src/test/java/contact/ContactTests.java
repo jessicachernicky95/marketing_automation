@@ -8,11 +8,12 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.TonicContactPage;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 
 public class ContactTests {
-    WebDriver driver;
+    public WebDriver driver;
+
 
     @BeforeClass
     public void setup() {
@@ -22,7 +23,7 @@ public class ContactTests {
         driver.manage().window().maximize();
         ChromeOptions co = new ChromeOptions();
         co.addArguments("--remote-allow-origins=*");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
     }
 
@@ -30,9 +31,7 @@ public class ContactTests {
     public void contactTest() throws InterruptedException {
         //Create object of HomePage class
         HomePage home = new HomePage(driver);
-
         home.clickOnContactButton();
-
 
         //Create object of ContactPage
         TonicContactPage contactPage = new TonicContactPage(driver);
