@@ -3,7 +3,7 @@ package contact;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.TonicContactPage;
@@ -15,7 +15,7 @@ public class ContactTests {
     public WebDriver driver;
 
 
-    @BeforeClass
+    @BeforeTest
     public void setup() {
         //Use Chromedriver
         System.setProperty("webdriver.http.factory", "jdk-http-client");
@@ -24,7 +24,6 @@ public class ContactTests {
         ChromeOptions co = new ChromeOptions();
         co.addArguments("--remote-allow-origins=*");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-
     }
 
     @Test

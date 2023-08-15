@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-14T02:03:37 MDT" name="Surefire suite" finished-at="2023-08-14T02:03:38 MDT" duration-ms="1015">
+  <suite started-at="2023-08-15T16:06:39 MDT" name="Surefire suite" finished-at="2023-08-15T16:06:41 MDT" duration-ms="2430">
     <groups>
     </groups>
-    <test started-at="2023-08-14T02:03:37 MDT" name="Surefire test" finished-at="2023-08-14T02:03:38 MDT" duration-ms="1015">
+    <test started-at="2023-08-15T16:06:39 MDT" name="Surefire test" finished-at="2023-08-15T16:06:41 MDT" duration-ms="2430">
       <class name="contact.ContactTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:contact.ContactTests@5c1a8622]" started-at="2023-08-14T02:03:37 MDT" name="setup" finished-at="2023-08-14T02:03:38 MDT" duration-ms="996" status="FAIL">
+        <test-method is-config="true" signature="setup()[pri:0, instance:contact.ContactTests@5c1a8622]" started-at="2023-08-15T16:06:39 MDT" name="setup" finished-at="2023-08-15T16:06:41 MDT" duration-ms="2408" status="FAIL">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads]]>
@@ -21,7 +21,7 @@ at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(
 at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
 at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at contact.ContactTests.setup(ContactTests.java:21)
+at contact.ContactTests.setup(ContactTests.java:22)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -57,7 +57,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="contactTest()[pri:0, instance:contact.ContactTests@5c1a8622]" started-at="2023-08-14T02:03:38 MDT" name="contactTest" finished-at="2023-08-14T02:03:38 MDT" duration-ms="0" status="SKIP">
+        <test-method signature="contactTest()[pri:0, instance:contact.ContactTests@5c1a8622]" started-at="2023-08-15T16:06:41 MDT" name="contactTest" finished-at="2023-08-15T16:06:41 MDT" duration-ms="0" status="SKIP">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads]]>
@@ -71,7 +71,7 @@ at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(
 at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
 at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50)
-at contact.ContactTests.setup(ContactTests.java:21)
+at contact.ContactTests.setup(ContactTests.java:22)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
