@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@suncentral-stagingdev.database.windows.net">
-  <database-model serializer="dbm" dbms="AZURE" family-id="AZURE" format-version="4.45">
+  <database-model serializer="dbm" dbms="AZURE" family-id="AZURE" format-version="4.49">
     <root id="1">
       <Dbms>AZURE</Dbms>
       <ServerVersion>12.0.5168</ServerVersion>
