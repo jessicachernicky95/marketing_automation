@@ -12,7 +12,7 @@ public class HomePage {
     //Locators
 
         //Contact Button
-        @FindBy (xpath = "//*[@id=\"__next\"]/header/div/div/div/div[2]/ul[1]/div/li[4]/button")
+        @FindBy (xpath = "//body[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[2]/ul[1]/div[1]/li[5]/button[1]")
         WebElement contactButton;
 
         //Constructor
