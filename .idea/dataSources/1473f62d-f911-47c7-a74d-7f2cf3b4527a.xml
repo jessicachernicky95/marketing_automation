@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@suncentral-stagingdev.database.windows.net">
-  <database-model serializer="dbm" dbms="AZURE" family-id="AZURE" format-version="4.49">
+  <database-model serializer="dbm" dbms="AZURE" family-id="AZURE" format-version="4.51">
     <root id="1">
       <Dbms>AZURE</Dbms>
     </root>
@@ -16746,18 +16746,15 @@
       <ObjectId>3</ObjectId>
     </schema>
     <schema id="5559" parent="5512" name="db_accessadmin">
-      <IntrospectionTimestamp>2023-06-20.15:10:57.160</IntrospectionTimestamp>
       <ObjectId>16385</ObjectId>
     </schema>
     <schema id="5560" parent="5512" name="db_backupoperator">
       <ObjectId>16389</ObjectId>
     </schema>
     <schema id="5561" parent="5512" name="db_datareader">
-      <IntrospectionTimestamp>2023-06-20.15:10:57.230</IntrospectionTimestamp>
       <ObjectId>16390</ObjectId>
     </schema>
     <schema id="5562" parent="5512" name="db_datawriter">
-      <IntrospectionTimestamp>2023-06-20.15:10:57.267</IntrospectionTimestamp>
       <ObjectId>16391</ObjectId>
     </schema>
     <schema id="5563" parent="5512" name="db_ddladmin">
@@ -16777,7 +16774,6 @@
     </schema>
     <schema id="5568" parent="5512" name="dbo">
       <Current>1</Current>
-      <IntrospectionTimestamp>2023-06-20.15:10:57.297</IntrospectionTimestamp>
       <ObjectId>1</ObjectId>
     </schema>
     <schema id="5569" parent="5512" name="guest">
